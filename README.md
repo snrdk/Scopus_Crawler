@@ -1,5 +1,5 @@
 # Scopus_Crawler
-This code 
+This code is designed to collect papers from Scopus and is intended for use in a simple project. 
 ## Collection Process
 
 The pipeline follows a two-stage collection strategy.
