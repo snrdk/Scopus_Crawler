@@ -18,7 +18,7 @@ The pipeline follows a two-stage collection strategy.
 
 * This step is intended for metadata that is more expensive to collect, such as abstracts, references, affiliations, and funding information. Because it runs after the Search stage, the user can decide whether detailed enrichment is necessary before spending additional API quota.
 
-### 3. 🖲️Pipeline wrapper
+### 3. 🔧Pipeline wrapper
 * The Pipeline wrapper controls the overall execution flow. It provides a single entry point for the full workflow while keeping the Search stage and Enrichment stage logically separated.
 
 * This makes the code easier to maintain, easier to debug, and easier to reuse for different collection settings.
