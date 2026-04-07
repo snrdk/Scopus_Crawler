@@ -1,5 +1,7 @@
 # Scopus_Crawler
-This code is designed to collect papers from Scopus and is intended for use in a simple project. The Scopus API keys personally issued to you are required. 
+(🛠️This is incomplete code currently undergoing testing.)
+
+This code is designed to collect papers from Scopus and is intended for use in a simple project. The Scopus API keys personally issued to you are required.
 ## Collection Process
 
 The pipeline follows a two-stage collection strategy.
