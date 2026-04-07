@@ -23,6 +23,6 @@ The pipeline follows a two-stage collection strategy.
 
 * This makes the code easier to maintain, easier to debug, and easier to reuse for different collection settings.
 
-cf. _Why separate Search and Enrichment?_ 🤷‍♂️
+cf. _Why separate Search and Enrichment?_
 
 : Scopus search results can be collected relatively efficiently, but detailed record retrieval is more expensive and slower. Separating the workflow into two stages makes large-scale collection more efficient, reduces unnecessary API usage, and allows the user to enrich only the records that are actually needed.
