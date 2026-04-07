@@ -18,11 +18,11 @@ The pipeline follows a two-stage collection strategy.
 
 * This step is intended for metadata that is more expensive to collect, such as abstracts, references, affiliations, and funding information. Because it runs after the Search stage, the user can decide whether detailed enrichment is necessary before spending additional API quota.
 
-### 3. Pipeline wrapper
+### 3. 🖲️Pipeline wrapper
 * The Pipeline wrapper controls the overall execution flow. It provides a single entry point for the full workflow while keeping the Search stage and Enrichment stage logically separated.
 
 * This makes the code easier to maintain, easier to debug, and easier to reuse for different collection settings.
 
-cf. _Why separate Search and Enrichment?_
+cf. _Why separate Search and Enrichment?_🤷‍♂️
 
 : Scopus search results can be collected relatively efficiently, but detailed record retrieval is more expensive and slower. Separating the workflow into two stages makes large-scale collection more efficient, reduces unnecessary API usage, and allows the user to enrich only the records that are actually needed.
